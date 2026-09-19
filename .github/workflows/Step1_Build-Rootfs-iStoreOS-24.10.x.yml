@@ -122,10 +122,10 @@ jobs:
           fi
           
           echo "✅ 找到最新的备份文件: $LATEST_FILE"
-          URL="https://github.com/$REPO/releases/download/$TAG/$LATEST_FILE"
+          URL="https://github.com/Arthur97172/ARM-istoreos-builder/releases/download/$TAG/$LATEST_FILE"
         else
           echo "固定版本模式：准备下载 $BUILD_VER 备份"
-          URL="https://github.com/$REPO/releases/download/$TAG/${BUILD_VER}-${TARGET_SUFFIX}"
+          URL="https://github.com/Arthur97172/ARM-istoreos-builder/releases/download/$TAG/${BUILD_VER}-${TARGET_SUFFIX}"
         fi
 
         echo "正在下载: $URL"
